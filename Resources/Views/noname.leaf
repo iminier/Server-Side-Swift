@@ -1,6 +1,6 @@
 extend("base2")
 
-export("body2") {
+export("bod") {
 
 <div class="container">
 
