@@ -1,11 +1,7 @@
 #extend("base")
 
-#export("head") {
-	<title>My App</title>
-}
-
 #export("body") {
-    <div class="message">
-    This is the body
-    </div>
+
+    <h1>This is the body<h1>
+
 }
