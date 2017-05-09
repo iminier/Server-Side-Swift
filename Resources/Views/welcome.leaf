@@ -1,7 +1,0 @@
-#extend("base")
-
-#export("body") {
-
-    <h1>This is the body<h1>
-
-}
