@@ -7,7 +7,7 @@ drop.get { req in
 }
 
 drop.get("home") { req in
-    return try drop.view.make("base2")
+    return try drop.view.make("noname")
     
 }
 
