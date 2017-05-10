@@ -3,11 +3,8 @@ import Vapor
 let drop = Droplet()
 
 drop.get { req in
-    return try drop.view.make("base")
-}
-
-drop.get("home") { req in
-    return try drop.view.make("noname")
+    let cow = ["title" : "try to be a string on the screen"] // does this have to be a dictionary?
+    return try drop.view.make("noname", Node(node: cow))
     
 }
 
